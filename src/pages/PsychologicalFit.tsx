@@ -120,14 +120,14 @@ const PsychologicalFit = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-xl flex items-center justify-center">
+            <div className="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center">
               <Brain className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold gradient-text">
+            <h1 className="text-3xl md:text-4xl font-bold text-purple-900">
               Psychological Fit Assessment
             </h1>
           </div>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             This section evaluates your psychological and motivational alignment with MEAN Stack development through validated personality assessments.
           </p>
         </div>

@@ -153,14 +153,14 @@ const TechnicalAptitude = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-gradient-to-r from-secondary to-primary rounded-xl flex items-center justify-center">
+            <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center">
               <Code className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold gradient-text">
+            <h1 className="text-3xl md:text-4xl font-bold text-green-900">
               Technical Aptitude Assessment
             </h1>
           </div>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             This section evaluates your technical knowledge and problem-solving abilities relevant to MEAN Stack development.
           </p>
         </div>
